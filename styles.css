@@ -132,12 +132,16 @@ li.nav-links a:hover {
 
 .form {
   text-align: center;
+  font-size: 14px;
+  padding: 10px;
 }
 
 #form-search {
   width: 450px;
   line-height: 32px;
   padding: 20px 10px;
+  font-size: 14px;
+  font-style: Arial;
 }
 
 .form #form-search {
