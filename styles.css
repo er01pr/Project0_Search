@@ -74,24 +74,55 @@ li.nav-links a:hover {
   height: auto;
 }
 
-.field {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-style: "Roboto", sans-serif;
-  vertical-align: baseline;
-  text-decoration: none;
+.advanced-search-container {
+  margin: 50px 40px;
+}
+
+.advanced-search-container label {
+  display: inline-block;
+  width: 16%;
   font-size: 20px;
-  padding: 10px 10px 10px 20px;
 }
 
-.field input {
-  width: 500px;
-  height: 30px;
+.advanced-search-container .whitespace {
+  display: inline-block;
+  width: 50%;
 }
 
-.field label {
-  color: red;
+.advanced-search-container .field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.advanced-search-container .field label {
+  width: 16%;
+  font-size: 20px;
+  font-style: "Roboto", sans-serif;
+}
+
+.advanced-search-container .field input[type="text"] {
+  width: 49%;
+  padding: 2px 0;
+}
+
+.advanced-search-container .field .clarification {
+  font-size: 13px;
+  width: 30%;
+  margin-left: 1%;
+}
+
+.advanced-search-container .field .clarification .monospace {
+  font-family: monospace;
+}
+
+.advanced-search-container .field .right-align {
+  width: 50%;
 }
 
 .form {
