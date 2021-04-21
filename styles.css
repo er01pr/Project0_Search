@@ -7,6 +7,8 @@ body {
 
 header {
   width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 ul {
@@ -109,6 +111,9 @@ li.nav-links a:hover {
 .advanced-search-container .field input[type="text"] {
   width: 49%;
   padding: 2px 0;
+  background-color: -internal-light-dark(white, #3b3b3b);
+  font: arial;
+  border-radius: 2px;
 }
 
 .advanced-search-container .field .clarification {
@@ -143,8 +148,9 @@ li.nav-links a:hover {
   font-style: "Roboto", sans-serif;
   font-size: 30px;
   color: red;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 0px;
   text-align: left;
+  margin-left: 20px;
 }
 
 /*#form-search:hover {
@@ -155,6 +161,18 @@ li.nav-links a:hover {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 300px;
+}
+
+.advanced-button {
+  text-align: center;
+  white-space: nowrap;
+  background-color: #4d90fe;
+  border: 1px solid  #3079ed;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin: 10px 0;
 }
 
 /* FOOTER */
@@ -194,6 +212,10 @@ footer ul a:hover {
   }
   #google_logo {
     padding: 0;
+  }
+  .google-advanced-logo {
+    margin-top: 100px;
+    float: left;
   }
   .buttons {
     display: none;
