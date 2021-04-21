@@ -74,6 +74,26 @@ li.nav-links a:hover {
   height: auto;
 }
 
+.field {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: "Roboto", sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 10px 10px 20px;
+}
+
+.field input {
+  width: 500px;
+  height: 30px;
+}
+
+.field label {
+  color: red;
+}
+
 .form {
   text-align: center;
 }
@@ -86,6 +106,14 @@ li.nav-links a:hover {
 
 .form #form-search {
   padding: 0 8px;
+}
+
+.advanced_header {
+  font-style: "Roboto", sans-serif;
+  font-size: 30px;
+  color: red;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
 }
 
 /*#form-search:hover {
